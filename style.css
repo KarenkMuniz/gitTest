@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-image: url('./img/soft-vintage-gradient-blur-background-with-pastel-colored-well-use-as-studio-room-product-presen.jpg');
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.main{
+width: 30em;
+height: fit-content;
+margin: 150px auto;
+background-color: rgb(225, 210, 210);
+border: 2px groove rgb(50, 29, 116);
+border-radius: 15px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 600;
+}
+.titulo{
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    color: rgb(50, 29, 116);
+    }
+.ipv4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color:  rgb(50, 29, 116);
+
+}
+#ips,#bits{
+    width: 20rem;
+    height: 1.5rem;
+    margin: auto;
+
+}
+#bits{
+    margin-top: 10px;
+    font-weight: 500;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 2px;
+    height: fit-content;
+
+}
+.numbin{
+    padding-top: 3px;
+    height: 1.5rem;
+    border: 1px solid rgb(50, 29, 116);
+    border-radius: 5px;
+    background-color: white;
+}
+.ipnegado{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    font-weight: 400;
+    font-size: 13px;
+    padding-top: 8px;
+}
+
+#ips{
+    margin-top: 10px;;
+}
+
+.binary{
+    padding-top: 10px;
+    padding-bottom:18px;
+
+}
+#btn{
+    background-color: rgb(50, 29, 116);
+    color: white;
+    width: 9rem;
+    height: 1.5rem;
+    margin-bottom: 10px;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: rgb(70, 55, 116);
+    color: white;
+    font-weight: 700;
+}
+#btn:active{
+    color: black;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Conversor IPV4</title>
+</head>
+<body>
+        <div class="main">
+            <div>
+                <h2 class="titulo">Conversor de IPV4 em Binários</h2>
+            </div>
+            <div class="ipv4">
+                <label for="ips"> Insira o IPV4:</label></br>
+                <input type="text" pattern="REGEX" id="ips" name="ips" autofocus autocomplete="192.85.3.2"></br>
+            </div>
+            <div class="binary">
+                <label> Octetos binários</label></br>
+                <div id="bits" name="bits"> 
+                <p class="numbin" id="numbin1"></p>
+                <p class="numbin" id="numbin2"></p>
+                <p class="numbin" id="numbin3"></p>
+                <p class="numbin" id="numbin4"></p>
+             </div>
+             <div class="ipnegado">
+                <p id="ipnegado"></p>
+             </div>
+            </div>
+            <div class="botao" type="submit" onkeypress="cleamAndStart()" onclick="cleanAndStart()">
+                <button id="btn">Converter</button>
+            </div>
+        </div>
+        <script src="./app.js"></script>
+
+        </body>
+</html>
